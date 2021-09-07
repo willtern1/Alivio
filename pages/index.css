@@ -11,31 +11,74 @@
 }
 
 .header {
-
+  display: flex;
+  width: 100%;
+  align-items: center;
 }
 
 .header-logo {
   background-image: url(../images/Logo.svg);
+  width: 79.57px;
+  height: 23.04px;
+  margin-top: 30.32px;
+  margin-bottom: 31.64px;
+  margin-left: 14.2%;
+}
+
+.header-nav {
+  margin-left: 9.1%;
 }
 
 .header-list {
-
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: flex-start;
 }
 
 .header-list__link {
-
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .header-account {
-
+  margin-left: 14.8%;
+  margin-top: 2px;
+  display: flex;
+  gap: 34.5px;
+  align-items: center;
+  width: 15%;
 }
 
 .header-account__link {
-
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .header-account__button {
-
+  width: 183px;
+  height: 51px;
+  background-color:  rgba(1, 153, 109, 1);
+  color: white;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  border: none;
+  border-radius: 4px;
 }
 
 .content {
@@ -51,11 +94,11 @@
 }
 
 .headline-title {
-
+  margin: 0;
 }
 
 .headline-text {
-
+  margin: 0;
 }
 
 .headline-button {
