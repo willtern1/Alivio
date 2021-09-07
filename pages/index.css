@@ -1,0 +1,63 @@
+@import url(../vendor/fonts/font.css);
+
+.body {
+  margin: 0;
+}
+
+.page {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+
+}
+
+.header-logo {
+  background-image: url(../images/Logo.svg);
+}
+
+.header-list {
+
+}
+
+.header-list__link {
+
+}
+
+.header-account {
+
+}
+
+.header-account__link {
+
+}
+
+.header-account__button {
+
+}
+
+.content {
+
+}
+
+.head {
+  background-image: url(../images/BG.png);
+}
+
+.headline {
+
+}
+
+.headline-title {
+
+}
+
+.headline-text {
+
+}
+
+.headline-button {
+
+}
